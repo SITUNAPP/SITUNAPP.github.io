@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Ancizar Sans-regular;
+    src: url('../fonts/Ancizar Sans-Regular.otf');
+}
+@font-face {
+    font-family: Ancizar Serif-bold;
+    src: url('../fonts/Ancizar Serif-Bold.otf');
+}
+
+a:link {
+	text-decoration: none;
+	color:#1E90FF;
+}
+a:visited {
+	color:#483D8B;
+}
+
+h1 {
+	font-family: Ancizar Serif-bold;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 1px 1px #382C1E ;
+	text-align: center;
+	min-width:200px;
+  max-width:1325px;
+}
+
+.menunav {
+	position:relative;
+  margin-left: 5%;
+  width: 95%;
+	float:left;
+  font-family: Ancizar Serif-bold;
+	font-size: 46px;
+	font-style: normal;
+	font-weight: normal;
+	color: #00FF00;
+	text-align: left;
+}
+
+
+.botonMenuInicial {
+  width: 665px;
+  padding:10px 40px 83px 8px;
+	background-image: url(../imagenes/boton1.jpg);
+	float: left;
+}
+.botonMenuInicial:hover {
+	color:#FFFFFF;
+	text-shadow: 1px 1px #000000;
+	background-image: url(../imagenes/boton2.jpg);
+	cursor:pointer;
+}
+
+.botonRuta {
+  width: 665px;
+  padding:10px 40px 83px 8px;
+	background-image: url(../imagenes/B1_A.jpg);
+	float: left;
+}
+.botonRuta:hover {
+	color:#FFFFFF;
+	text-shadow: 1px 1px #000000;
+	background-image: url(../imagenes/B1_B.jpg);
+	cursor:pointer;
+}
+
+.botonBicirrun {
+  width: 665px;
+  padding:10px 40px 83px 8px;
+	background-image: url(../imagenes/B2_A.jpg);
+	float: left;
+}
+.botonBicirrun:hover {
+	text-shadow: 1px 1px #000000;
+	background-image: url(../imagenes/B2_B.jpg);
+	cursor:pointer;
+}
+
+.botonCar {
+  width: 665px;
+  padding:10px 40px 83px 8px;
+	background-image: url(../imagenes/B3_A.jpg);
+	float: left;
+}
+.botonCar:hover {
+	text-shadow: 1px 1px #000000;
+	background-image: url(../imagenes/B3_B.jpg);
+	cursor:pointer;
+}
+
+.botonMapa {
+  width: 665px;
+  padding:10px 40px 83px 8px;
+	background-image: url(../imagenes/boton3.jpg);
+	float: left;
+}
+.botonMapa:hover {
+	color:#FFFFFF;
+	text-shadow: 1px 1px #000000;
+	background-image: url(../imagenes/boton4.jpg);
+	cursor:pointer;
+}
+
+h3 {
+	font-family: Ancizar Serif-regular;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align:justify;
+	min-width:200px;
+  max-width:100%;
+}
+
+.contenido {
+	position: relative;
+	margin-left: 5%;
+  max-width:45%;
+	float:left;
+}
+.contenido img {
+  margin-left: 10%;
+  width: 80%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 1534px) {
+  h3{
+  	font-size: 30px;
+    max-width: 95%;
+  }
+  .contenido {
+    max-width:730px;
+    min-width:400px;
+  }
+}
