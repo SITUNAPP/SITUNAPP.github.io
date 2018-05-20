@@ -14,7 +14,7 @@ a:link {
 	color:#1E90FF;
 }
 a:visited {
-	color:#483D8B;
+	color:##3498DB;
 }
 
 h1 {
@@ -44,11 +44,15 @@ h1 {
 }
 
 
+
 .botonMenuInicial {
   width: 308px;
   padding:18px 40px 11px 8px;
 	background-image: url(../imagenes/boton1.jpg);
 	float: left;
+}
+.botonMenuInicial:visited{
+  color: #3498db;
 }
 .botonMenuInicial:hover {
 	color:#FFFFFF;
@@ -57,11 +61,16 @@ h1 {
 	cursor:pointer;
 }
 
+
+
 .botonRuta {
   width: 308px;
   padding:18px 40px 11px 8px;
 	background-image: url(../imagenes/B1_A.jpg);
 	float: left;
+}
+.botonRuta:visited{
+  color: #3498db;
 }
 .botonRuta:hover {
 	color:#FFFFFF;
@@ -76,7 +85,11 @@ h1 {
 	background-image: url(../imagenes/B2_A.jpg);
 	float: left;
 }
+.botonBicirrun:visited{
+  color: #3498db;
+}
 .botonBicirrun:hover {
+  color:#FFFFFF;
 	text-shadow: 1px 1px #000000;
 	background-image: url(../imagenes/B2_B.jpg);
 	cursor:pointer;
@@ -88,7 +101,11 @@ h1 {
 	background-image: url(../imagenes/B3_A.jpg);
 	float: left;
 }
+.botonCar:visited{
+  color: #3498db;
+}
 .botonCar:hover {
+  color:#FFFFFF;
 	text-shadow: 1px 1px #000000;
 	background-image: url(../imagenes/B3_B.jpg);
 	cursor:pointer;
@@ -99,6 +116,9 @@ h1 {
   padding:18px 40px 11px 8px;
 	background-image: url(../imagenes/boton3.jpg);
 	float: left;
+}
+.botonMapa:visited{
+  color: #3498db;
 }
 .botonMapa:hover {
 	color:#FFFFFF;
