@@ -151,7 +151,7 @@ h3 {
 }
 
 
-@media only screen and (max-width: 1534px) {
+@media only screen and (max-width: 1000px) {
   h3{
   	font-size: 30px;
     max-width: 95%;
