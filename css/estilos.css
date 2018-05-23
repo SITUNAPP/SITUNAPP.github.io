@@ -151,7 +151,7 @@ h3 {
 }
 
 
-@media only screen and (max-width: 1534px) {
+@media only screen and (max-width: 1000px) {
   h3{
   	font-size: 30px;
     max-width: 95%;
@@ -160,4 +160,11 @@ h3 {
     max-width:730px;
     min-width:400px;
   }
+}
+
+body {
+  background-image: url(../imagenes/FONDO.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
