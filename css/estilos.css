@@ -128,7 +128,8 @@ h1 {
 }
 
 h3 {
-	font-family: Ancizar Serif-regular;
+	font-family: Ancizar Serif-regular,Geneva,sans-serif;
+		
 	font-size: 30px;
 	font-style: normal;
 	font-weight: bold;
