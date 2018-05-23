@@ -161,3 +161,10 @@ h3 {
     min-width:400px;
   }
 }
+
+body {
+  background-image: url(../imagenes/FONDO.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
